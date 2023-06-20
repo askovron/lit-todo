@@ -2,7 +2,7 @@ import { LitElement, html, css } from 'lit';
 import { property, customElement } from 'lit/decorators.js';
 import './todo-list.js';
 
-const logo = new URL('../../assets/logo.svg#flame', import.meta.url).href;
+const logo = new URL('../../assets/logo.svg', import.meta.url).href;
 
 @customElement('hello-lit')
 export class HelloLit extends LitElement {
