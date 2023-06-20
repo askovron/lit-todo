@@ -37,6 +37,10 @@ class TodoRow extends LitElement {
     label {
       flex: 1;
     }
+
+    label:has(input[checked]) {
+      text-decoration: line-through;
+    }
   `;
 
   render() {
